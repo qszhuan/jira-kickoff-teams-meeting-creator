@@ -8,5 +8,11 @@
   "background": {
     "service_worker": "background.js"
   },
+  "icons": {
+    "16": "images/meeting.png",
+    "48": "images/meeting-64.png",
+    "64": "images/meeting-64.png",
+    "128":  "images/meeting-128.png"
+  },
   "options_page": "options.html"
 }

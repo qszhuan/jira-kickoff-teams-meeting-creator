@@ -36,7 +36,7 @@ chrome.contextMenus.onClicked.addListener((info, tab) => {
         const storyTitle = data.fields.summary;
         const storyLink = encodeURIComponent(info.linkUrl);
         const subject = `Kickoff ${storyNumber}: ${storyTitle}`;
-        const content = encodeURIComponent(`${storyTitle} <br/>`) + storyLink;
+        const content = storyLink + encodeURIComponent(`\n\n\n\n\n ${storyTitle}`);
         const teamsURI = `msteams://teams.microsoft.com/l/meeting/new?subject=${subject}&content=${content}`;
         console.log(teamsURI);
         chrome.tabs.create({ url: teamsURI });
