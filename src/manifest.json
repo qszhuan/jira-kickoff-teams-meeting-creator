@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "JIRA Kickoff Meeting Creator",
+  "description": "Popup the windows to create MS Teams meeting to kick off the ticket. The meeting title and content are prefilled",
+  "version": "1.0",
+  "permissions": ["contextMenus", "storage"],
+  "host_permissions": ["*://*.atlassian.net/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "options.html"
+}
