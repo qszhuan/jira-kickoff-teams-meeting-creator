@@ -10,6 +10,7 @@ This is a chrome extension to create Microsoft Teams meeting from a JIRA ticket
 4. Configure the JIRA subdomain within the extension's options. Input the subdomain corresponding to your JIRA URL. For instance, if your JIRA URL is `https://mtvt.atlassian.net/`, you should enter `mtvt`. You can access this setting in two ways:
    - Open the `Details` of the extension, navigate to `Extension options`, and open the settings page.
    - Click on the `Extensions` icon in the Chrome menu, locate the extension, click `...`, and then select `Options` from the menu.
+![Add Extension](src/images/save%20setting.jpg)
 5. Return to the JIRA page. Right-click on the ticket link. You will observe the `Schedule kickoff` option in the menu. Click it to launch the Microsoft Teams window, where the meeting title and content will be prefilled.  
 ![Add Extension](src/images/schedule%20meeting.jpg)
 
